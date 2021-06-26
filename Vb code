@@ -1,0 +1,52 @@
+Private sub button_click (sender as object,e as eventArgs)
+handles button click
+      If textbox1 .text <> "0" then
+      Textbox1.text +="the calculator numbers"(buttons from 1 to 0)
+Else
+Textbox1.text = "buttons"
+
+Public class form 1
+    Dim firstnum as decimal 
+    Dim secondnum as decimal
+    Dim operation as integer
+    Dim operator_selector as boolean =false
+
+
+Firstnum =textbox1.text
+Textbox1.text ="0"
+Operator_selector =true
+Operation =1'=(operation button on your calculator)
+End sub
+
+
+If operator_selector =true then
+  Secondnum =texbox1.text
+If operation =1 then 
+Textbox1.text =firstnum + secondnum 
+Elseif operation =2 then 
+Textbox1.text =firstnum-secondnum
+(Do the same way to operation x)
+
+
+Else
+If secondnum =0 then 
+Textbox1.text ="error!"
+Textbox1.text =firstnum÷secondnum
+End if
+Operator_selector =false
+End if ×2
+
+
+If not(textbox1.text.contains(","))then
+  Textbox1.text += "."
+End sub 
+
+
+Textbox1.text="0"
+End sub.
+
+
+
+
+
+(Caution this code is not arranged for the users first arrange ,used in making a simple calculator using visual basic ,)
